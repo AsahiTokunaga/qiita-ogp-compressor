@@ -7,6 +7,8 @@
 	"name": "qiita-ogp-compressor",
 	"main": "src/index.ts",
 	"compatibility_date": "2025-12-21",
+	"workers_dev": false,
+	"preview_urls": false,
 	"observability": {
 		"enabled": true
 	},
@@ -37,5 +39,5 @@
 	 * Service Bindings (communicate between multiple Workers)
 	 * https://developers.cloudflare.com/workers/wrangler/configuration/#service-bindings
 	 */
-	"services": [  {   "binding": "QIITA_OGP-IMAGE_GETTER",   "service": "qiita-ogpimage-getter"  } ]
+	// "services": [  {   "binding": "QIITA_OGP-IMAGE_GETTER",   "service": "qiita-ogpimage-getter"  } ]
 }
